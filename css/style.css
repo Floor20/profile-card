@@ -5,5 +5,35 @@
 }
 
 body {
-  background-image: url("../images/bg-pattern-card.svg");
+  background-color: hsl(185, 75%, 39%);
+  /* background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: -15% 50%, 140% -35%;
+  background-size: 55%, 70%; 
+  background-position: -215% 45%, 140% -35%;
+  background-size: 90%, 70%; */
+}
+
+.container {
+  /* background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: -150px -300px, 150px 100px;
+  background-attachment: fixed; */
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-top {
+  position: absolute;
+  bottom: 40%;
+  right: 50%;
+}
+
+.bg-bottom {
+  position: absolute;
+  top: 50%;
+  left: 55%;
 }
